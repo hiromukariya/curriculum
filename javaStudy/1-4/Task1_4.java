@@ -9,7 +9,7 @@ public class Task1_4 {
   public static void main(String[] args) {
     String name = "alice";
     String pass = "alice123";
-    if(name == USER_NAME && pass == USER_PASSWORD) {
+    if(name.equals(USER_NAME) && pass.equals(USER_PASSWORD)) {
       System.out.println(CONST_MSG_SUCCESS);
     } else if(name == USER_NAME) {
       System.out.println(CONST_MSG_ERROR_PASS);
