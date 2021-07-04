@@ -30,7 +30,7 @@ public class Study {
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
          * [ここへ記述]
-         *
+         *shopMap変数にputメソッドでキーバリューを追加。第一引数にはListで作った配列からgetメソッドを使って取得、第二引数には整数を追加する
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
         shopMap.put(shohinList.get(0), 125);
